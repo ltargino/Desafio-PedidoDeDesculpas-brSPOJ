@@ -30,5 +30,11 @@ public class Frase {
 	public void set_quantidade_de_desculpas(int quantidade_de_desculpas) {
 		this.quantidade_de_desculpas = quantidade_de_desculpas;
 	}
-    
+	
+	/* Metodos de sobrescrita */
+	@Override
+	public String toString() {
+		return "Frase [quantidade_de_caracteres=" + quantidade_de_caracteres + ", quantidade_de_desculpas=" + quantidade_de_desculpas + "]";
+	}
+
 }
